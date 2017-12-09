@@ -182,7 +182,7 @@ class ScriptBeanDefinitionParser extends AbstractBeanDefinitionParser {
 		if (element.hasAttribute(CUSTOMIZER_REF_ATTRIBUTE)) {
 			String customizerBeanName = element.getAttribute(CUSTOMIZER_REF_ATTRIBUTE);
 			if (!StringUtils.hasText(customizerBeanName)) {
-				parserContext.getReaderContext().error("Attribute 'customizer-ref' has empty value", element);
+				parserContext.getReaderContext().error("Attribute'customizer-ref'has empty value", element);
 			}
 			else {
 				cav.addIndexedArgumentValue(constructorArgNum++, new RuntimeBeanReference(customizerBeanName));

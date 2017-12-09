@@ -29,9 +29,9 @@ import org.junit.Test;
 import org.springframework.oxm.AbstractUnmarshallerTests;
 import org.springframework.oxm.Unmarshaller;
 import org.springframework.oxm.ValidationFailureException;
-import org.springframework.samples.flight.FlightDocument;
-import org.springframework.samples.flight.FlightType;
-import org.springframework.samples.flight.FlightsDocument;
+//import org.springframework.samples.flight.FlightDocument;
+//import org.springframework.samples.flight.FlightType;
+//import org.springframework.samples.flight.FlightsDocument; //20171209注释,直接在该包下创建
 import org.springframework.util.xml.StaxUtils;
 
 /**

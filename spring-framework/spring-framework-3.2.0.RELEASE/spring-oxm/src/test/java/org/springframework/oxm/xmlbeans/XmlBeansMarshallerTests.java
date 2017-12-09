@@ -26,8 +26,8 @@ import org.junit.Test;
 
 import org.springframework.oxm.AbstractMarshallerTests;
 import org.springframework.oxm.Marshaller;
-import org.springframework.samples.flight.FlightType;
-import org.springframework.samples.flight.FlightsDocument;
+//import org.springframework.samples.flight.FlightType;
+//import org.springframework.samples.flight.FlightsDocument;//20171209注释,直接在该包下创建
 
 /**
  * @author Arjen Poutsma

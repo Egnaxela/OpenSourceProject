@@ -43,7 +43,7 @@ import org.springframework.oxm.AbstractMarshallerTests;
 import org.springframework.oxm.Marshaller;
 import org.springframework.oxm.UncategorizedMappingException;
 import org.springframework.oxm.XmlMappingException;
-import org.springframework.oxm.jaxb.test.FlightType;
+import org.springframework.oxm.jaxb.test.FlightType;  
 import org.springframework.oxm.jaxb.test.Flights;
 import org.springframework.oxm.jaxb.test.ObjectFactory;
 import org.springframework.oxm.mime.MimeContainer;
